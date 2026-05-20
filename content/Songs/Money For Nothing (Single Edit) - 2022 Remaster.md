@@ -1,0 +1,202 @@
+---
+title: "Money For Nothing (Single Edit) - 2022 Remaster"
+type: song
+energy: "Medium Energy ⚖️"
+---
+
+# [[Money For Nothing (Single Edit) - 2022 Remaster]]
+**Artist:** [[Dire Straits]] 
+**Energy Profile:** [[Medium Energy ⚖️]]
+
+---
+
+## 🗂️ Genre Taxonomy
+* **Main Parent Hubs:** [[Rock]]
+* **Subgenres / Styles:** [[Blues Rock]], [[Folk Rock]], [[Pop Rock]]
+
+---
+
+## 🎵 Lyrics & Meaning
+> [Intro: Sting]
+> I want my, I want my MTV
+> I want my, I want my MTV
+> I want my, I want my MTV
+> I want my, I want my MTV
+> 
+> [Drum Solo]
+> 
+> [Verse 1: Mark Knopfler, Mark Knopfler & Sting]
+> Hah, now look at them yo-yos, that's the way you do it
+> You play the guitar on the MTV
+> That ain't workin', that's the way you do it
+> Money for nothing and your chicks for free
+> Now that ain't workin', 
+> that's the way you do it
+> Lemme tell ya, them guys ain't dumb
+> Maybe get a blister on your little finger
+> Maybe get a blister on your thumb
+> 
+> [Chorus: Mark Knopfler & Sting]
+> We got to install microwave ovens
+> Custom kitchen deliveries
+> We got to move these refrigerators
+> We got to move these colour TVs
+> 
+> [Verse 2: Mark Knopfler]
+> See the little faggot with the earring and the makeup?
+> Yeah, buddy, that's his own hair
+> That little faggot got his own jet airplane
+> That little faggot, he's a millionaire
+> 
+> [Chorus: Mark Knopfler & Sting]
+> We got to install microwave ovens
+> Custom kitchen deliveries
+> We got to move these refrigerators
+> We got to move these colour TVs
+> 
+> [Interlude: Mark Knopfler]
+> Hoover, move-ah, huh
+> 
+> [Chorus: Sting, 
+> Mark Knopfler & Sting
+> ]
+> Got to install microwave ovens
+> Custom kitchen deliveries
+> He's gotta move these refrigerators
+> Got to move these colour TVs
+> Look-ee here, look at it
+> 
+> [Verse 3: Mark Knopfler, Mark Knopfler & Sting]
+> I shoulda learned to play the guitar
+> I shoulda learned to play them drums
+> Look at that mama, she got it sticking in the camera, man
+> Man, we could have some
+> And he's up there, what's that? Hawaiian noises?
+> He's banging on the bongos like a chimpanzee
+> Oh, that ain't workin', 
+> that's the way you do it
+> Get your 
+> money for nothing, get your chicks for free
+> 
+> [Chorus: Mark Knopfler & Sting]
+> We got to install microwave ovens
+> Custom kitchen deliveries
+> We got to move these refrigerators
+> We got to move these colour TVs
+> 
+> [Interlude]
+> *dog howling*
+> 
+> [Verse 4: Mark Knopfler, Mark Knopfler & Sting]
+> Listen here, now, that ain't workin', that's the way you do it
+> You play the guitar on the MTV
+> That ain't workin', 
+> that's the way you do it
+> Money for nothing, and your chicks for free
+> 
+> [Refrain: Mark Knopfler & Sting, Sting, Mark Knopfler]
+> Money for nothing
+> Chicks for free
+> Get your
+>  money for nothing
+> And your chicks for free
+> Oh, heh,
+>  money for nothing
+> Ch-ch,
+>  
+> and your
+>  chicks for free
+> Get your
+>  money for nothing
+> And the
+>  chicks for free
+> (
+> Money for nothing
+> ) 
+> Ooh, money, money for nothing
+> And the
+>  chicks for free
+> Get your
+>  money for nothing
+> Get your
+>  chicks for free
+> Ow,
+>  
+> get your money for nothing
+>  (
+> Yeah
+> )
+> And the chicks for free
+> Get your money for nothing
+>  (
+> What's that?
+> )
+> And the chicks for free
+>  (
+> Look at that, look at that
+> )
+> Get your money for nothing
+>  (
+> I want my, I want my
+> )
+> (
+> Bozos
+> ) And the chicks for free
+>  (
+> I want my MTV
+> )
+> Money for nothing
+>  (
+> I want my, I want my
+> )
+> And the chicks for free
+>  (
+> I want my MTV
+> )
+> Get your money for nothing
+>  (
+> I want my, I want my
+> )
+> And the chicks for free
+>  (
+> I want my MTV
+> )
+> Ah,
+>  
+> get your
+>  money for nothing (
+> I want my, I want my
+> )
+> And the chicks for free
+>  (
+> I want my MTV
+> )
+> Easy, easy,
+>  
+> get your
+>  money for nothing (
+> I want my, I want my
+> )
+> Easy, easy,
+>  
+> and the
+>  chicks for free (
+> I want my MTV
+> )
+> Easy, easy,
+>  
+> get your
+>  money for nothing (
+> I want my, I want my
+> )
+> And the chicks for free
+>  (
+> I want my MTV
+> )
+> That ain't working
+> 
+> [Guitar Solo]
+> 
+> [Outro: Sting]
+> Money for nothing, chicks for free
+> Money for nothing, chicks for free
