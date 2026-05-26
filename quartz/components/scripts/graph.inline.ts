@@ -162,7 +162,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const width = graph.offsetWidth
-  const height = 700 // 👈 REEMPLAZA AQUÍ. Forzamos a D3 y PixiJS a calcular la física en 700px de alto.
+  const height = 600 // 👈 Cambia esto a 600 fijos para que coincida perfectamente con el CSS
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)

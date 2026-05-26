@@ -25,20 +25,22 @@ svg {
   }
 }
 
-/* 📐 Forzar tamaño masivo vertical y horizontal en el CSS */
+/* 📐 Forzar tamaño masivo y liberar la caja contenedora de Quartz */
 .graph,
+.graph-outer,  /* 👈 ¡Esta es la clase clave que tenía el candado! */
 .graph-container, 
 .graph-view, 
 .global-graph-container, 
 #graph-container {
-  height: 700px !important;     /* Altura ideal para el dashboard */
-  min-height: 700px !important; /* Evita que el navegador lo colapse */
+  height: 600px !important;
+  min-height: 600px !important;
+  max-height: 600px !important; /* Rompe el límite por defecto de Quartz */
   width: 100% !important;
   display: block !important;
 }
 
-/* Forzar al lienzo de PixiJS a llenar la nueva altura */
+/* Asegurar que el lienzo de PixiJS se dibuje a los 600px completos */
 canvas {
-  height: 700px !important;
-  max-height: 700px !important;
+  height: 600px !important;
+  max-height: 600px !important;
 }
