@@ -42,8 +42,23 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
+  // 👇 Busca esta sección dentro de tu 'right:' en quartz.layout.ts
   right: [
-    // 📑 Si NO es el index (es decir, una canción), se queda en la barra derecha normal
+    // 1. Si es el INDEX, dibuja el mapa general completo
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          depth: -1, 
+          enableRadial: false, // 👈 ¡AÑADE ESTA LÍNEA! Apaga la fuerza circular deforme
+        },
+        globalGraph: {
+          depth: -1,
+          enableRadial: false, // 👈 Pónselo también aquí por seguridad
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    // 2. Si NO es el index, el gráfico normal de 1 paso (este sí puede mantener su forma de flor)
     Component.ConditionalRender({
       component: Component.Graph(),
       condition: (page) => page.fileData.slug !== "index",
