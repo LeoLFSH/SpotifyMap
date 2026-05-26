@@ -30,13 +30,12 @@ svg {
 .graph-view, 
 .global-graph-container, 
 #graph-container {
-  height: 1000px !important;     /* Aumentamos a 1000px para que sea un cuadrado/rectángulo imponente */
-  min-height: 1000px !important; /* Evita que el navegador lo colapse */
+  height: 100% !important;     /* Aumentamos a 1000px para que sea un cuadrado/rectángulo imponente */
   width: 100% !important;
   display: block !important;
 }
 
-/* Ajuste opcional para que el Canvas interno de PixiJS se adapte al nuevo tamaño */
-canvas {
+// Ajuste opcional para que el Canvas interno de PixiJS se adapte al nuevo tamaño */
+//canvas {
   max-height: 1000px !important;
-}
+//}
