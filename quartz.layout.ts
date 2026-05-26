@@ -22,11 +22,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    // 🏛️ ¡EL GRAFO GIGANTE AQUÍ! Si es el index, se planta en el centro del sitio
+    // 🏛️ 1. EL GRAFO GIGANTE CENTRAL (Solo en el Index + Física Orgánica Perfecta)
     Component.ConditionalRender({
       component: Component.Graph({
-        localGraph: { depth: -1 },
-        globalGraph: { depth: -1 },
+        localGraph: {
+          depth: -1,
+          enableRadial: false, // 👈 Apaga el anillo aquí en el centro
+        },
+        globalGraph: {
+          depth: -1,
+          enableRadial: false,
+        },
       }),
       condition: (page) => page.fileData.slug === "index",
     }),
@@ -36,29 +42,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        { Component: Component.Search(), grow: true },
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
         { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),
   ],
-  // 👇 Busca esta sección dentro de tu 'right:' en quartz.layout.ts
   right: [
-    // 1. Si es el INDEX, dibuja el mapa general completo
-    Component.ConditionalRender({
-      component: Component.Graph({
-        localGraph: {
-          depth: -1, 
-          enableRadial: false, // 👈 ¡AÑADE ESTA LÍNEA! Apaga la fuerza circular deforme
-        },
-        globalGraph: {
-          depth: -1,
-          enableRadial: false, // 👈 Pónselo también aquí por seguridad
-        },
-      }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    // 2. Si NO es el index, el gráfico normal de 1 paso (este sí puede mantener su forma de flor)
+    // 📑 2. EL GRAFO NORMAL (Solo en las páginas de canciones/artistas, NO en el index)
     Component.ConditionalRender({
       component: Component.Graph(),
       condition: (page) => page.fileData.slug !== "index",
