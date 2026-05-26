@@ -162,7 +162,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   const width = graph.offsetWidth
-  const height = Math.max(graph.offsetHeight, 250)
+  const height = 650 // 👈 Cambia esto. Forzamos a Pixi.js a nacer con 650px de alto reales.
 
   // we virtualize the simulation and use pixi to actually render it
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
