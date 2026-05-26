@@ -194,11 +194,26 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   )
 
   // calculate color
+// calculate color
   const color = (d: NodeData) => {
     const isCurrent = d.id === slug
+    
+    // Si es la página que estás leyendo actualmente, se queda con el color secundario destacado
     if (isCurrent) {
       return computedStyleMap["--secondary"]
-    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
+    } 
+    
+    // 🎨 Inyección de colores personalizados por carpetas de tu script de Spotify/Discogs
+    if (d.id.startsWith("Artists/")) {
+      return "#a855f7" // Morado Vibrante para tus Artistas (Zoé, Beatles, Bratty...)
+    } else if (d.id.startsWith("Genres/")) {
+      return "#1db954" // Verde Spotify para tus macro-géneros (Rock, Latin, Pop...)
+    } else if (d.id.startsWith("Songs/")) {
+      return "#06b6d4" // Azul Neón/Cian para todas tus Canciones individuales
+    }
+    
+    // Fallbacks por defecto de Quartz para tags u otras notas visitadas
+    if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return computedStyleMap["--tertiary"]
     } else {
       return computedStyleMap["--gray"]

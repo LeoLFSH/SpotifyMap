@@ -22,36 +22,28 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    // 🏛️ ¡EL GRAFO GIGANTE AQUÍ! Si es el index, se planta en el centro del sitio
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: { depth: -1 },
+        globalGraph: { depth: -1 },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),
   ],
-  // 👇 REEMPLAZA TU SECCIÓN 'right' POR ESTA:
   right: [
-    // 1. Si es el INDEX, dibuja el mapa general completo (depth: -1)
-    Component.ConditionalRender({
-      component: Component.Graph({
-        localGraph: {
-          depth: -1, 
-        },
-        globalGraph: {
-          depth: -1,
-        },
-      }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
-    // 2. Si NO es el index, dibuja el gráfico normal de 1 paso para no saturar las canciones
+    // 📑 Si NO es el index (es decir, una canción), se queda en la barra derecha normal
     Component.ConditionalRender({
       component: Component.Graph(),
       condition: (page) => page.fileData.slug !== "index",
