@@ -22,16 +22,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    // 🏛️ 1. EL GRAFO GIGANTE CENTRAL (Solo en el Index + Física Orgánica Perfecta)
+    // 🏛️ 1. EL GRAFO GIGANTE CENTRAL (Con la fuerza circular encendida 🎪)
     Component.ConditionalRender({
       component: Component.Graph({
         localGraph: {
           depth: -1,
-          enableRadial: false, // 👈 Apaga el anillo aquí en el centro
+          enableRadial: true, // 👈 CAMBIA A TRUE: Activa el diseño circular cohesivo
         },
         globalGraph: {
           depth: -1,
-          enableRadial: false,
+          enableRadial: true, // 👈 CAMBIA A TRUE: Devuelve la forma limpia al mapa completo
         },
       }),
       condition: (page) => page.fileData.slug === "index",
