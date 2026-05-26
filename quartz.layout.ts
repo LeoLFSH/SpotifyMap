@@ -37,8 +37,25 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
+  // 👇 REEMPLAZA TU SECCIÓN 'right' POR ESTA:
   right: [
-    Component.Graph(),
+    // 1. Si es el INDEX, dibuja el mapa general completo (depth: -1)
+    Component.ConditionalRender({
+      component: Component.Graph({
+        localGraph: {
+          depth: -1, 
+        },
+        globalGraph: {
+          depth: -1,
+        },
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    // 2. Si NO es el index, dibuja el gráfico normal de 1 paso para no saturar las canciones
+    Component.ConditionalRender({
+      component: Component.Graph(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

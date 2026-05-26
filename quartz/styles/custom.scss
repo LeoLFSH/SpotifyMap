@@ -1,3 +1,26 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* 🎨 Personalización de colores por categoría en el Mapa Musical */
+svg {
+  // 1. ARTISTAS - Color Morado/Magenta Vibrante
+  g[data-slug^="Artists/"] circle,
+  circle[data-slug^="Artists/"] {
+    fill: #a855f7 !important;
+    stroke: #c084fc !important;
+  }
+
+  // 2. GÉNEROS - Verde Spotify
+  g[data-slug^="Genres/"] circle,
+  circle[data-slug^="Genres/"] {
+    fill: #1db954 !important;
+    stroke: #1ed760 !important;
+  }
+
+  // 3. CANCIONES - Azul Neón / Cian
+  g[data-slug^="Songs/"] circle,
+  circle[data-slug^="Songs/"] {
+    fill: #06b6d4 !important;
+    stroke: #22d3ee !important;
+  }
+}
