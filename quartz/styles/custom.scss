@@ -25,11 +25,18 @@ svg {
   }
 }
 
-/* 📐 Expandir el tamaño del mapa musical */
-.graph-view {
-  height: 550px !important; /* Fuerza una altura masiva de ventana */
-  width: 100% !important;   /* Se estira a todo lo ancho de la columna */
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
-  margin: 1.5rem 0;
+/* 📐 Forzar tamaño masivo vertical y horizontal para el lienzo de Pixi.js */
+.graph-container, 
+.graph-view, 
+.global-graph-container, 
+#graph-container {
+  height: 650px !important;     /* Aumentamos a 650px para que sea un cuadrado/rectángulo imponente */
+  min-height: 650px !important; /* Evita que el navegador lo colapse */
+  width: 100% !important;
+  display: block !important;
+}
+
+/* Ajuste opcional para que el Canvas interno de PixiJS se adapte al nuevo tamaño */
+canvas {
+  max-height: 650px !important;
 }
