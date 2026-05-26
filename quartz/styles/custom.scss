@@ -25,17 +25,20 @@ svg {
   }
 }
 
-/* 📐 Forzar tamaño masivo vertical y horizontal para el lienzo de Pixi.js */
+/* 📐 Forzar tamaño masivo vertical y horizontal en el CSS */
+.graph,
 .graph-container, 
 .graph-view, 
 .global-graph-container, 
 #graph-container {
-  height: 100% !important;     /* Aumentamos a 1000px para que sea un cuadrado/rectángulo imponente */
+  height: 700px !important;     /* Altura ideal para el dashboard */
+  min-height: 700px !important; /* Evita que el navegador lo colapse */
   width: 100% !important;
   display: block !important;
 }
 
-// Ajuste opcional para que el Canvas interno de PixiJS se adapte al nuevo tamaño */
-//canvas {
-  max-height: 1000px !important;
-//}
+/* Forzar al lienzo de PixiJS a llenar la nueva altura */
+canvas {
+  height: 700px !important;
+  max-height: 700px !important;
+}
