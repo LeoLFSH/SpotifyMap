@@ -1,15 +1,23 @@
 ---
-title: Music Second Brain ⚡
+title: Music Second Brain 
 ---
 
 Welcome to my personal music knowledge graph, generated automatically from my Spotify streaming trends and Discogs structural taxonomy.
 
-### 🎧 Start Exploring My Top Tracks:
-- [[Blue Monday]] (New Order)
-- [[Born Slippy (Nuxx)]] (Underworld)
-- [[Zombie - 2025 Remastered]] (The Cranberries)
-- [[Cigarette Daydreams]] (Cage The Elephant)
+### 🎧 Featured Artists / Artistas Destacados
+Aquí puedes empezar a explorar las conexiones de mis artistas más escuchados:
+- [[Zoé]]
+- [[The Beatles]]
+- [[Bratty]]
+- [[Cage The Elephant]]
 
-### 🗂️ Explore by Roots:
-- Go straight to my [[Rock]] or [[Electronic]] master hubs.
-- Check out my collection of subgenres like [[Cumbia]] or [[Synth-Pop]].
+### 🗂️ Master Genre Hubs / Grandes Nodos de Géneros
+Navega directamente a través de las raíces musicales más grandes de mi ecosistema:
+- [[Rock]]
+- [[Electronic]]
+- [[Pop]]
+- [[Latin]]
+
+---
+
+*Tip: Si estás viendo esto desde el mapa interactivo en pantalla completa, haz clic en cualquiera de estos enlaces para ver cómo orbitan todas las canciones y subgéneros a su alrededor.*
