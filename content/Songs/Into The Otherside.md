@@ -11,8 +11,8 @@ energy: "Neutral Energy"
 ---
 
 ## 🗂️ Genre Taxonomy
-* **Main Parent Hubs:** [[Unknown Genre]]
-* **Subgenres / Styles:** None
+* **Main Parent Hubs:** [[Rock]]
+* **Subgenres / Styles:** [[Hard Rock]]
 
 ---
 

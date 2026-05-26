@@ -1,3 +1,3 @@
 # The Citie
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Latin]], [[Indie Rock]]

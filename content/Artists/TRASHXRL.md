@@ -1,3 +1,3 @@
 # TRASHXRL
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Funk  Soul]]

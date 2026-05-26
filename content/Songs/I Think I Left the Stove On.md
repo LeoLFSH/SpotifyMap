@@ -11,7 +11,7 @@ energy: "Neutral Energy"
 ---
 
 ## 🗂️ Genre Taxonomy
-* **Main Parent Hubs:** [[Unknown Genre]]
+* **Main Parent Hubs:** [[Beat]]
 * **Subgenres / Styles:** None
 
 ---

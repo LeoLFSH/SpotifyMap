@@ -1,3 +1,3 @@
 # The Listros
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Hard Rock]]

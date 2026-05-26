@@ -1,3 +1,3 @@
 # Hotel Ugly
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Beat]]

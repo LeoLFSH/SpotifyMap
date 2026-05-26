@@ -1,3 +1,3 @@
 # Bratty
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Bedroom pop]]

@@ -1,3 +1,3 @@
 # Dubdogz
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Electronic]]

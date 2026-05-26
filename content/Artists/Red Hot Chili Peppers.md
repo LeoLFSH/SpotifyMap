@@ -1,3 +1,3 @@
 # Red Hot Chili Peppers
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Rock]]

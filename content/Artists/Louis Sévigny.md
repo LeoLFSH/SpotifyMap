@@ -1,3 +1,3 @@
 # Louis Sévigny
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Indie Rock]]

@@ -1,3 +1,3 @@
 # CHIRAI
 
-**Primary Genre Hub:** [[Unknown Genre]]
+**Primary Genre Hub:** [[Lo-Fi]]
