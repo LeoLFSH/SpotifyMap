@@ -24,3 +24,12 @@ svg {
     stroke: #22d3ee !important;
   }
 }
+
+/* 📐 Expandir el tamaño del mapa musical */
+.graph-view {
+  height: 550px !important; /* Fuerza una altura masiva de ventana */
+  width: 100% !important;   /* Se estira a todo lo ancho de la columna */
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
