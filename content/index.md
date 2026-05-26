@@ -8,7 +8,7 @@ Data extracted from Spotify API, Discogs API and Genius for the Lyrics
 
 ### Main Artists
 Aquí puedes empezar a explorar las conexiones de mis artistas más escuchados:
-- [[Zoé]]
+- [[Zoe]]
 - [[The Beatles]]
 - [[Bratty]]
 - [[Cage The Elephant]]
